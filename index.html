@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clothing Page</title>
+	<style>
+		.image-container {
+			width: 100%;
+			height: 100%; /* adjust the height to your liking */
+			overflow: hidden;
+		}
+		
+		.image-container img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		
+		.clothing-list {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		
+		.clothing-item {
+			width: calc(33.33% - 10px); /* adjust the width to your liking */
+			margin: 10px;
+			background-color: #f5f5f5;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+		}
+		
+		.clothing-item img {
+			width: 351.25px;
+			height: 500px; /* adjust the height to your liking */
+			object-fit: cover;
+			border-radius: 10px 10px 0 0;
+		}
+		
+		.clothing-item h2 {
+			margin-top: 0;
+		}
+		
+		.clothing-item p {
+			font-size: 16px;
+			color: #666;
+		}
+		
+		.clothing-item .price {
+			font-size: 18px;
+			font-weight: bold;
+			color: #00698f;
+		}
+	</style>
+</head>
+<body>
+	<div class="image-container">
+		<img src="IMAGENES/LOGO1.1.png" alt="Clothing Image">
+    <p>Bienvenidos a nuestra tienda online especializada en moda deportiva, donde el rendimiento se une al estilo para llevarte más allá de tus límites! En nuestro espacio virtual, encontrarás una selección cuidadosamente curada de prendas diseñadas para acompañarte en cada movimiento, desde tus entrenamientos más intensos hasta tus momentos de relajación activa. Nuestro objetivo es ofrecerte no solo ropa de alta calidad, sino también la motivación y la inspiración necesarias para alcanzar tus metas deportivas con confianza y estilo. ¡Prepárate para vivir una experiencia de compra emocionante y descubre cómo el rendimiento y la moda se unen en perfecta armonía en nuestra colección de ropa deportiva!</p>
+	</div>
+	
+	<div class="clothing-list">
+		<div class="clothing-item">
+			<img src="IMAGENES/PANTALÓN DE DEPORTE NEGRO.png" alt="Pantalón de deporte Negro">
+			<h2>Pantalón de deporte Negro</h2>
+			<p>Pantalón fabricado con algodón sumamente resistente a altas y bajas temperaturas.</p>
+			<p class="price">$25.00</p>
+			<a href="#">Buy Now</a>
+		</div>
+		<div class="clothing-item">
+			<img src="IMAGENES/SUDADERA GRIS.png" alt="Sudadera gris">
+			<h2>Sudadera gris</h2>
+			<p>Sudadera super comoda fabricada con tejidos super resistentes.</p>
+			<p class="price">$30.00</p>
+			<a href="#">Buy Now</a>
+		</div>
+		<div class="clothing-item">
+			<img src="IMAGENES/CAMISETA NEGRA DE DEPORTE.png" alt="Camiseta negra de deporte">
+			<h2>Camiseta negra de deporte</h2>
+			<p>Camiseta que se ajusta al cuerpo de cualquier persona.</p>
+			<p class="price">$20.00</p>
+			<a href="#">Buy Now</a>
+		</div>
+		<div class="clothing-item">
+			<img src="IMAGENES/ZAPATOS DE DEPORTE.png" alt="Zapatos de deporte">
+			<h2>Zapatos de deporte</h2>
+			<p>Zapatos perfecto apra hacer senderismo, muy comodos e impermeables.</p>
+			<p class="price">$25.00</p>
+			<a href="#">Buy Now</a>
+		</div>
+	</div>
+</body>
+</html>
